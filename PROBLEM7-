@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n1, sum;
+    
+    cout << "Enter the value of a number:";
+    cin >> n1;
+    
+    while (n1 > 0)
+    {
+        sum = 0;
+        
+        for (int q = 1; q <= n1; q++)
+        {
+            sum = sum + q;
+        }
+        
+        cout << "The value of the sum from 1 to " << n1 << " is: " << sum << endl;
+        
+        cout << "Enter a value of a number:";
+        cin >> n1;
+    }
+    
+    cout << "Thank you!";
+    
+    
+return 0;
+}
